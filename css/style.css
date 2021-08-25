@@ -1,0 +1,55 @@
+.container__title {
+    margin-top: 55px;
+}
+
+#wrapper {
+    background: #0d6fba;
+    display: inline-block;
+    border-radius: 500px;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+.circle {
+    /*width: 100px;
+    height: 100px;*/
+    width: 22px;
+    height: 22px;
+    position: relative;
+}
+.line {
+    position: absolute;
+    /*height: 12px;*/
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.95s;
+}
+.top {
+    top: 18%;
+}
+.middle {
+    top: 48%;    
+}
+.bottom {
+    top: 78%;
+}
+.icon.close .top {
+    transform: rotate(45deg);
+    top: 48%;
+}
+.icon.close .middle, .icon.close .bottom {
+    transform: rotate(-45deg);
+    top: 48%;
+}
+
+.navbar-toggler{
+    padding: 0;
+    border: none;
+}
+
+
